@@ -1,4 +1,18 @@
 
+
+Filterimage burano.jpg -cropr 1824 -scaletox 512 -to png >burano.512.png
+Filterimage burano.jpg -cropr 1824 -scaletox 256 -to png >burano.256.png
+
+Filterimage crimson.jpg -cropl 504 -cropr 504 -scaletox 512 -to png >crimson.512.png
+Filterimage crimson.jpg -cropl 504 -cropr 504 -scaletox 256 -to png >crimson.256.png
+
+Filterimage lillian.jpg -scaletox 640 -to png >lillian_640x480.png
+Filterimage lillian.jpg -scaletox 320 -to png >lillian_320x240.png
+
+Filterimage seattle.jpg -cropr 1824 -scaletox 512 -to png >seattle_512.png
+Filterimage seattle.jpg -cropr 1824 -scaletox 256 -to png >seattle_256.png
+Filterimage seattle.jpg -scaletox 1500 -to png >seattle_1500x1000.png
+
 Filtervideo brink_loop.mp4 -cropl 840 -scaletox 512 > brink_loop_512.mp4
 Filtervideo brink_loop.mp4 -cropl 840 -scaletox 256 > brink_loop_256.mp4
 
