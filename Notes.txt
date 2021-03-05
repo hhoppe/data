@@ -2,9 +2,11 @@
 
 Filterimage burano.jpg -cropr 1824 -scaletox 512 -to png >burano_512.png
 Filterimage burano.jpg -cropr 1824 -scaletox 256 -to png >burano_256.png
+Filterimage burano.jpg -cropr 1824 -scaletox 256 -to png >burano_128.png
 
 Filterimage crimson.jpg -cropl 504 -cropr 504 -scaletox 512 -to png >crimson_512.png
 Filterimage crimson.jpg -cropl 504 -cropr 504 -scaletox 256 -to png >crimson_256.png
+Filterimage crimson.jpg -cropl 504 -cropr 504 -scaletox 256 -to png >crimson_128.png
 
 Filterimage lillian.jpg -scaletox 640 -to png >lillian_640x480.png
 Filterimage lillian.jpg -scaletox 320 -to png >lillian_320x240.png
