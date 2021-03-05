@@ -1,0 +1,23 @@
+
+Filtervideo brink_loop.mp4 -cropl 840 -scaletox 512 > brink_loop_512.mp4
+Filtervideo brink_loop.mp4 -cropl 840 -scaletox 256 > brink_loop_256.mp4
+
+Filtervideo brink.mp4 -end 20 -cropl 840 -scaletox 256 > brink_20_256.mp4
+Filtervideo brink.mp4 -end 20 -cropl 840 -scaletox 512 > brink_20_512.mp4
+Filtervideo brink.mp4 -end 20 -scaletox 640 > brink_20_640x360.mp4
+Filtervideo brink.mp4 -end 10 -scaletox 320 > brink_10_320x180.mp4
+Filtervideo brink.mp4 -end 30 -scaletox 320 > brink_30_320x180.mp4
+
+Filtervideo palmtrees_loop.mp4 -cropl 840 -scaletox 512 > palmtrees_loop_512.mp4
+Filtervideo palmtrees_loop.mp4 -cropl 840 -scaletox 256 > palmtrees_loop_256.mp4
+
+Filtervideo palmtrees.mp4 -end 20 -cropl 840 -scaletox 256 > palmtrees_20_256.mp4
+Filtervideo palmtrees.mp4 -end 20 -cropl 840 -scaletox 512 > palmtrees_20_512.mp4
+Filtervideo palmtrees.mp4 -end 20 -scaletox 640 > palmtrees_20_640x360.mp4
+Filtervideo palmtrees.mp4 -end 10 -scaletox 320 > palmtrees_10_320x180.mp4
+Filtervideo palmtrees.mp4 -end 30 -scaletox 320 > palmtrees_30_320x180.mp4
+
+
+ffmpeg -nostdin -hide_banner -v info -i cherries.mp4 -t 0.92 -vcodec copy -y cherries_30.mp4
+Filtervideo cherries_30.mp4 -scaletox 320 > cherries_30_320x180.mp4
+
